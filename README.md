@@ -16,12 +16,13 @@ In this dataset, three types of input data are provided for single action
 
 **3. Sensor:** accelerometer reading of wearable sensor.
 
-database information
+
 <img src="Images/database.png" width = 800>
 
 # **Feature Extraction:**
 
 For simplicity very basic feature extraction techniques are applied to each data type.
+
 **1. Depth map:** I first identified the minimum and the maximum value of each pixel and take a mean of it as a feature of that pixel.
 <img src="Images/depth_fe.png" width = 800>
 
