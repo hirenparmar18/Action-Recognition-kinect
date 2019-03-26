@@ -16,7 +16,7 @@ In this dataset, three types of input data are provided for single action
 
 **3. Sensor:** accelerometer reading of wearable sensor.
 
-
+Following table provides information about full dataset.
 <img src="Images/database.png" width = 800>
 
 # **Feature Extraction:**
@@ -38,8 +38,9 @@ All above features are stored in 3D matrix and used as input to modeling.
 **Block diagram**
 <img src="Images/block_diagram.png" width = 800>
 
-TensorFlow is used for modeling. Three models are trained for each data types. The model gives probability of each class as an output. Then the class with highest probability is declared as recognized class. To take advantage of each model we have fuzed the probability of three model output.
-For proof of concept we have done above experiment with different train and test ratio.
+TensorFlow is used for modelling. Three models are trained for each data types. The model gives probability of each class as an output. Then the class with the highest probability is declared as a recognized class. To take advantage of each model we have fuzed the probability of three model output.
+For proof of concept,, we have done above experiment with different train and test ratio.
+
 ## **Conclusion:**
 Skeleton Data gives higher accuracy, recall and precision compare to Depth and sensor data, however combining all data’s output improves result.
 
