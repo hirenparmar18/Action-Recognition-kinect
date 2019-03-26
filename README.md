@@ -1,5 +1,4 @@
-# Action-Recognition-kinect
-Human Action Recognition using Depthmap, Skeleton and Sensor data.
+# **Human Action Recognition using Depthmap, Skeleton and Sensor data.**
 
 The objective of this project is to apply machine learning algorithms to recognise human action. 
 
@@ -12,7 +11,9 @@ The dataset for this project is downloaded from http://www.utdallas.edu/~kehtar/
 In this dataset, three types of input data are provided for single action
 
 **1. Depth Map:** Sequence of Depth frame where each frame consists of the depth value of each pixel.
+
 **2. Skeleton:** Sequence of 20 body joint coordinates in 3 dimensions.
+
 **3. Sensor:** accelerometer reading of wearable sensor.
 
 database information
