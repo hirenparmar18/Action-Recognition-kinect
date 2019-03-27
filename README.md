@@ -17,20 +17,20 @@ In this dataset, three types of input data are provided for single action
 **3. Sensor:** accelerometer reading of wearable sensor.
 
 Following table provides information about full dataset.
-<img src="Images/database.png" width = 800>
+<img src="Images/database.png" width = 700>
 
 # **Feature Extraction:**
 
 For simplicity very basic feature extraction techniques are applied to each data type.
 
 **1. Depth map:** I first identified the minimum and the maximum value of each pixel and take a mean of it as a feature of that pixel.
-<img src="Images/depth_fe.png" width = 800>
+<img src="Images/depth_fe.png" width = 600>
 
 **2. Skeleton:** The values of all 20 joints are interpolated to 60 points and stored as 20x60 matrix. This matrix is considered as a feature matrix.
-<img src="Images/skeleton_fe.png" width = 800>
+<img src="Images/skeleton_fe.png" width = 600>
 
 **3. Sensor:** Similar to last step all sensor data are interpolated to 60 joints and stored as 6 x60 feature matrix.
-<img src="Images/sensor_fe.png" width = 800>
+<img src="Images/sensor_fe.png" width = 600>
 All above features are stored in 3D matrix and used as input to modeling.
 
 # **Modelling:**
