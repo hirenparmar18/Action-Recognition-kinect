@@ -43,7 +43,7 @@ TensorFlow is used for modelling. Three models are trained for each data types. 
 For proof of concept, we have done above experiment with different train and test ratio.
 
 ## **Conclusion:**
-Skeleton Data gives higher accuracy, recall and precision compare to Depth and sensor data, however combining all data’s output improves result.
+Skeleton Data gives higher accuracy, recall and precision compare to Depth and sensor data, however combining all data’s output improves the final result.
 
 
 
